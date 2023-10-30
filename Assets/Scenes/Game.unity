@@ -262,8 +262,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 48.4161, y: 8.801}
-  m_SizeDelta: {x: 51.7692, y: 47.613}
+  m_AnchoredPosition: {x: -351.68347, y: 179}
+  m_SizeDelta: {x: 135.1561, y: 47.613}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &340801732
 MonoBehaviour:
@@ -511,7 +511,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -38.2335, y: 31.1132}
+  m_AnchoredPosition: {x: -396.1, y: 26.6}
   m_SizeDelta: {x: 120.4582, y: 233.8375}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1260658542
@@ -611,8 +611,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -36.295868, y: 179}
-  m_SizeDelta: {x: 731.4082, y: 50}
+  m_AnchoredPosition: {x: -44.723217, y: 179}
+  m_SizeDelta: {x: 480.3602, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1759879326
 MonoBehaviour:
@@ -634,8 +634,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Detenen un lladre que simulava ser un maniqu\xED per robar en botigues
-    de Pol\xF2nia\r"
+  m_text: 'un lladre que simulava ser un '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -698,7 +697,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0.000061035156, w: 0}
+  m_margin: {x: 0, y: 0, z: 0.88708496, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
