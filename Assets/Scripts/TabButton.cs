@@ -17,15 +17,16 @@ public class TabButton : MonoBehaviour,IPointerEnterHandler,IPointerClickHandler
         tabGroup.Subscribe(this);
     }
 
-    public void OnPointerEnter(PointerEventData eventData)
+    public void OnPointerClick(PointerEventData eventData)
     {
         tabGroup.OnTabSelected(this);
     }
-
-    public void OnPointerClick(PointerEventData eventData)
+    
+    public void OnPointerEnter(PointerEventData eventData)
     {
         tabGroup.OnTabEnter(this);
     }
+
     
     public void OnPointerExit(PointerEventData eventData)
     {

@@ -27,7 +27,9 @@ public class TabGroup : MonoBehaviour
         
         if (selectedTab == null || button != selectedTab)
         {
-            button.background.sprite = tabHover;    
+
+            button.background.sprite = tabActive;
+            
         }
     }
    
@@ -40,7 +42,7 @@ public class TabGroup : MonoBehaviour
     {
         selectedTab = button;
         ResetTabs();
-        button.background.sprite = tabActive;
+        button.background.sprite = tabHover;
         int index = button.transform.GetSiblingIndex();
         for (int i = 0; i < objectsToSwap.Count; i++)
         {
