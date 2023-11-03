@@ -10,6 +10,8 @@ public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEnd
     [SerializeField] private Canvas _canvas;
     private RectTransform _rectTransform;
     private CanvasGroup _canvasGroup;
+    
+    [HideInInspector] public Transform parentAfterDrag;
 
     private void Awake()
     {
@@ -26,13 +28,16 @@ public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEnd
     {
         _canvasGroup.alpha =.6f;
         _canvasGroup.blocksRaycasts = false;
-        
+        parentAfterDrag = transform.parent;
+        transform.SetParent(transform.root);
+        transform.SetAsLastSibling();
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
         _canvasGroup.alpha =1f;
         _canvasGroup.blocksRaycasts = true;
+        transform.SetParent(parentAfterDrag);
     }
 
     public void OnDrag(PointerEventData eventData)
