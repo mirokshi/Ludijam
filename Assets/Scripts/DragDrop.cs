@@ -7,6 +7,7 @@ using  UnityEngine.EventSystems;
 
 public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEndDragHandler,IDragHandler
 {
+    public TypeGame _typeGame;
     [SerializeField] private Canvas _canvas;
     private RectTransform _rectTransform;
     private CanvasGroup _canvasGroup;

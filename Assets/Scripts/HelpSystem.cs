@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -17,7 +15,9 @@ public class HelpSystem : MonoBehaviour
 
     private void DeleteObject()
     {
-        if (objectsToDelete.Count > 0) {
+        if (objectsToDelete.Count > 0)
+        {
+            Destroy(objectsToDelete[0]);
             objectsToDelete.RemoveAt(0);
         }
     }

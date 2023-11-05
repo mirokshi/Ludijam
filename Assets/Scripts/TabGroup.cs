@@ -41,7 +41,7 @@ public class TabGroup : MonoBehaviour
     public void OnTabSelected(TabButton button)
     {
         
-        pagArea.SetActive(!pagArea.activeSelf);
+        // pagArea.SetActive(!pagArea.activeSelf);
 
         selectedTab = button;
         ResetTabs();
