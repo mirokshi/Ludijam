@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 136c53a5122615b43acdb15077e0ee0d
+guid: 8f6a07f8daf4efe4d9e0ab1241caf02e
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - OldNewspaperTypes
+  - Verily Serif Mono
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
