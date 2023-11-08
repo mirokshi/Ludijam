@@ -1,4 +1,4 @@
-﻿public enum TypeGame
+﻿public enum TypeItem
 {
     Compuesto,
     Personaje,

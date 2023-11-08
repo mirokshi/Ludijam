@@ -3,13 +3,13 @@ using UnityEngine.EventSystems;
 
 public class Slot : MonoBehaviour,IDropHandler
 {
-    [SerializeField] private TypeGame typeGame;
+    [SerializeField] private TypeItem typeItem;
     public void OnDrop(PointerEventData eventData)
     {
         GameObject dropped = eventData.pointerDrag;
         DragDrop draggableItem = dropped.GetComponent<DragDrop>();
         draggableItem.parentAfterDrag = transform;
-        if (draggableItem._typeGame == TypeGame.Compuesto)
+        if (draggableItem.typeItem == TypeItem.Compuesto)
         {
             
         }
