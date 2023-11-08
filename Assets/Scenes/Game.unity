@@ -351,8 +351,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.699997, y: -64.399994}
-  m_SizeDelta: {x: 340.8123, y: 395.4995}
+  m_AnchoredPosition: {x: -2.3912, y: -62.399994}
+  m_SizeDelta: {x: 329.9276, y: 395.4995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &112633101
 MonoBehaviour:
@@ -457,9 +457,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 133597038}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!114 &133597040
 MonoBehaviour:
@@ -551,7 +551,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &157382137
 RectTransform:
   m_ObjectHideFlags: 0
@@ -559,16 +559,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 157382136}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.0000012, y: 1.0000012, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1359044056}
+  m_Father: {fileID: 975128615}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 375.71506, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 185.50873, y: 434.4889}
   m_Pivot: {x: 0, y: 0.21347925}
 --- !u!222 &157382138
@@ -774,7 +774,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -116.7, y: -271.9}
+  m_AnchoredPosition: {x: 125.8, y: 3.7999878}
   m_SizeDelta: {x: 32, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &195864652
@@ -894,7 +894,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &213419592
 RectTransform:
   m_ObjectHideFlags: 0
@@ -902,16 +902,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213419591}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.0000012, y: 1.0000012, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1359044056}
+  m_Father: {fileID: 1666979006}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -375.715, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 185.50873, y: 434.4889}
   m_Pivot: {x: 1, y: 0.21347925}
 --- !u!222 &213419593
@@ -2597,8 +2597,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0028686523, y: -114.08}
-  m_SizeDelta: {x: 285.1587, y: 228.16}
+  m_AnchoredPosition: {x: -2.9779968, y: -143.5}
+  m_SizeDelta: {x: 331.2407, y: 255.1681}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &620362948
 MonoBehaviour:
@@ -2630,15 +2630,15 @@ MonoBehaviour:
     detingut per la policia de Vars\xF2via i ara s'enfronta a una pena de fins a
     10 anys de pres\xF3.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 00417ebc8f6b99d43baf39732dd2e81c, type: 2}
-  m_sharedMaterial: {fileID: -594754945026122564, guid: 00417ebc8f6b99d43baf39732dd2e81c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3e22f63faaab23a428ff3bd0829c5074, type: 2}
+  m_sharedMaterial: {fileID: -6978795554922244096, guid: 3e22f63faaab23a428ff3bd0829c5074, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4280295456
+  m_fontColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2655,11 +2655,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
+  m_fontSize: 10.65
+  m_fontSizeBase: 10
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 10
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 8
@@ -2691,7 +2691,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 7.657593, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2821,7 +2821,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: 252}
+  m_AnchoredPosition: {x: -2, y: 237}
   m_SizeDelta: {x: 340.6013, y: 55.3781}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &640050459
@@ -4441,9 +4441,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 920346395}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!114 &920346397
 MonoBehaviour:
@@ -4575,8 +4575,8 @@ MonoBehaviour:
   m_text: "Detenen un lladre que simulava ser un maniqu\xED per robar en botigues
     de Pol\xF2nia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 00417ebc8f6b99d43baf39732dd2e81c, type: 2}
-  m_sharedMaterial: {fileID: -594754945026122564, guid: 00417ebc8f6b99d43baf39732dd2e81c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4600,7 +4600,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22.55
+  m_fontSize: 20.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4750,6 +4750,7 @@ RectTransform:
   - {fileID: 620362947}
   - {fileID: 195864651}
   - {fileID: 272217909}
+  - {fileID: 157382137}
   m_Father: {fileID: 1359044056}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
@@ -5322,7 +5323,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 71.82857, y: -6.399994}
+  m_AnchoredPosition: {x: 82.2, y: -22.9}
   m_SizeDelta: {x: 16.9499, y: 83.5586}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1190079799
@@ -6083,8 +6084,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 220.9}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -0.00046158, y: 220.9}
+  m_SizeDelta: {x: 317.94, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1318283282
 MonoBehaviour:
@@ -6108,15 +6109,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Contenido
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8d06ad650d1f4e44285d9954ffb0a7c7, type: 2}
+  m_sharedMaterial: {fileID: -1458130942967234120, guid: 8d06ad650d1f4e44285d9954ffb0a7c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4280295456
+  m_fontColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6133,15 +6134,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 50
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_fontStyle: 16
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -6574,8 +6575,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 671567895}
+  - {fileID: 1666979006}
   - {fileID: 1556264677}
+  - {fileID: 975128615}
   - {fileID: 310936210}
+  - {fileID: 133597043}
+  - {fileID: 920346400}
   - {fileID: 1277596079}
   - {fileID: 1292951500}
   - {fileID: 1315627876}
@@ -6585,12 +6590,6 @@ RectTransform:
   - {fileID: 1692994941}
   - {fileID: 1286213074}
   - {fileID: 1033427364}
-  - {fileID: 213419592}
-  - {fileID: 157382137}
-  - {fileID: 1666979006}
-  - {fileID: 920346400}
-  - {fileID: 133597043}
-  - {fileID: 975128615}
   m_Father: {fileID: 471337506}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -6665,8 +6664,8 @@ MonoBehaviour:
     detingut per la policia de Vars\xF2via i ara s'enfronta a una pena de fins a
     10 anys de pres\xF3.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 00417ebc8f6b99d43baf39732dd2e81c, type: 2}
-  m_sharedMaterial: {fileID: -594754945026122564, guid: 00417ebc8f6b99d43baf39732dd2e81c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6969,8 +6968,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015258789, y: 185}
-  m_SizeDelta: {x: 299.1574, y: 74.4977}
+  m_AnchoredPosition: {x: 0, y: 204}
+  m_SizeDelta: {x: 329.93, y: 90.7707}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1458194593
 MonoBehaviour:
@@ -6995,15 +6994,15 @@ MonoBehaviour:
   m_text: "Detenen un lladre que simulava ser un maniqu\xED per robar en botigues
     de Pol\xF2nia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 00417ebc8f6b99d43baf39732dd2e81c, type: 2}
-  m_sharedMaterial: {fileID: -594754945026122564, guid: 00417ebc8f6b99d43baf39732dd2e81c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8d06ad650d1f4e44285d9954ffb0a7c7, type: 2}
+  m_sharedMaterial: {fileID: -1458130942967234120, guid: 8d06ad650d1f4e44285d9954ffb0a7c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4280295456
+  m_fontColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -7020,13 +7019,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22.55
+  m_fontSize: 21.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -7332,8 +7331,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Noticia 3
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3e22f63faaab23a428ff3bd0829c5074, type: 2}
+  m_sharedMaterial: {fileID: -6978795554922244096, guid: 3e22f63faaab23a428ff3bd0829c5074, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7790,8 +7789,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Noticia 4
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3e22f63faaab23a428ff3bd0829c5074, type: 2}
+  m_sharedMaterial: {fileID: -6978795554922244096, guid: 3e22f63faaab23a428ff3bd0829c5074, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8013,8 +8012,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Noticia 5
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3e22f63faaab23a428ff3bd0829c5074, type: 2}
+  m_sharedMaterial: {fileID: -6978795554922244096, guid: 3e22f63faaab23a428ff3bd0829c5074, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8396,6 +8395,7 @@ RectTransform:
   m_Children:
   - {fileID: 112633100}
   - {fileID: 1458194592}
+  - {fileID: 213419592}
   m_Father: {fileID: 1359044056}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -8620,7 +8620,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.9990845, y: 137.65509}
+  m_AnchoredPosition: {x: -2.0009003, y: 122.65506}
   m_SizeDelta: {x: 340.6, y: 173.31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1817386757
@@ -8985,8 +8985,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Noticia 2
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3e22f63faaab23a428ff3bd0829c5074, type: 2}
+  m_sharedMaterial: {fileID: -6978795554922244096, guid: 3e22f63faaab23a428ff3bd0829c5074, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9209,8 +9209,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Noticia 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3e22f63faaab23a428ff3bd0829c5074, type: 2}
+  m_sharedMaterial: {fileID: -6978795554922244096, guid: 3e22f63faaab23a428ff3bd0829c5074, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
