@@ -58,25 +58,7 @@ public class SetTitle : MonoBehaviour
 
     public void setText(int position, string text)
     {
-        int index=0;  
-        switch (position)
-        {
-            case 1:
-               index= ReplaceText(1);
-                break;
-            case 2:
-                index=ReplaceText(1);
-                break;
-            case 3:
-                index=ReplaceText(3);
-                break;
-            case 4:
-                index=ReplaceText(4);
-                break;
-            default:
-                index = -1;
-                break;
-        }
+        int index = ReplaceText(position);  
 
         titleSO.parts[index] = text;
         

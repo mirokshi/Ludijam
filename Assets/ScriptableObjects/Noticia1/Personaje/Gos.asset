@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Gos
   m_EditorClassIdentifier: 
   text: Gos
-  position: 0
+  position: 1
   sprite: {fileID: 21300000, guid: 2d874c2523460e74dbf675bb114d483c, type: 3}
   typeItem: 1
   scoreReal: 2

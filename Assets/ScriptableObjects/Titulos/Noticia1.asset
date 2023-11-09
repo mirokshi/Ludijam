@@ -12,5 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddf785fa7048853418e617f26d9645cd, type: 3}
   m_Name: Noticia1
   m_EditorClassIdentifier: 
-  textTitle: "Detenen un lladre que simulava ser un maniqu\xED per robar en botigues
-    de Pol\xF2nia"
+  completedTitle: "Detenen un lladre que simulava ser un maniqu\xED per robar en
+    botigues de Pol\xF2nia"
+  uncompletedTitle: "Detenen un __ que simulava ser un __ per __ en __ de Pol\xF2nia"
+  parts:
+  - Detenen un
+  - Lladre
+  - que simulava ser un
+  - Gos
+  - per
+  - Lladre
+  - en
+  - __
+  - "de Pol\xF2nia"

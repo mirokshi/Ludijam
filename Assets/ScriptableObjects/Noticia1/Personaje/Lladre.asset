@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lladre
   m_EditorClassIdentifier: 
   text: Lladre
-  position: 0
+  position: 1
   sprite: {fileID: 21300000, guid: da474c87bf89d7e4f83ee268d6ed1287, type: 3}
   typeItem: 0
   scoreReal: 3

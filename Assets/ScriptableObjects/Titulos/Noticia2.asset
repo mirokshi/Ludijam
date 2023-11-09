@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddf785fa7048853418e617f26d9645cd, type: 3}
   m_Name: Noticia2
   m_EditorClassIdentifier: 
-  textTitle: Indemnitzats amb 1.300 euros per volar al costat d'un gos que es tirava
-    pets
+  completedTitle: Indemnitzats amb 1.300 euros per volar al costat d'un gos que es
+    tirava pets
+  uncompletedTitle: 
+  parts: []

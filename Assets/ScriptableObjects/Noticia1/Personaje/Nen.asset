@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Nen
   m_EditorClassIdentifier: 
   text: Nen
-  position: 0
+  position: 1
   sprite: {fileID: 21300000, guid: e3a1236399fbd1742b4a1d0169d775c7, type: 3}
   typeItem: 1
   scoreReal: 1
