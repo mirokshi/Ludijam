@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3c287ff842acd840a65620911b6a269, type: 3}
-  m_Name: Pintar
+  m_Name: Nen
   m_EditorClassIdentifier: 
-  text: Pintar
-  position: 3
-  image: {fileID: 0}
+  text: Nen
+  position: 0
+  sprite: {fileID: 21300000, guid: e3a1236399fbd1742b4a1d0169d775c7, type: 3}
+  typeItem: 1
   scoreReal: 1
   scoreCreativity: 3

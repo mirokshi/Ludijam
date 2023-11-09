@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3c287ff842acd840a65620911b6a269, type: 3}
-  m_Name: Farmacia
+  m_Name: Gos
   m_EditorClassIdentifier: 
-  text: Farmacies
-  position: 4
-  image: {fileID: 0}
-  scoreReal: 1
-  scoreCreativity: 3
+  text: Gos
+  position: 0
+  sprite: {fileID: 21300000, guid: 2d874c2523460e74dbf675bb114d483c, type: 3}
+  typeItem: 1
+  scoreReal: 2
+  scoreCreativity: 2

@@ -351,8 +351,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.3912048, y: -62.399994}
-  m_SizeDelta: {x: 329.9276, y: 395.4995}
+  m_AnchoredPosition: {x: 0.000030517578, y: -62.399994}
+  m_SizeDelta: {x: 329.93, y: 395.4995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &112633101
 MonoBehaviour:
@@ -3779,6 +3779,7 @@ GameObject:
   - component: {fileID: 857754421}
   - component: {fileID: 857754420}
   - component: {fileID: 857754419}
+  - component: {fileID: 857754423}
   m_Layer: 5
   m_Name: Personaje1
   m_TagString: Untagged
@@ -3852,7 +3853,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: da474c87bf89d7e4f83ee268d6ed1287, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3870,6 +3871,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857754417}
   m_CullTransparentMesh: 1
+--- !u!114 &857754423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857754417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d5f3b01b4761fb4aa7070ae41b39015, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 11400000, guid: c464d5e6455071840bdba5d77d7380ff, type: 2}
+  text: Lladre
+  position: 1
+  sprite: {fileID: 21300000, guid: da474c87bf89d7e4f83ee268d6ed1287, type: 3}
+  typeItem: 1
+  scoreReal: 3
+  scoreCreativity: 1
 --- !u!1 &888899028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3883,6 +3903,7 @@ GameObject:
   - component: {fileID: 888899032}
   - component: {fileID: 888899031}
   - component: {fileID: 888899030}
+  - component: {fileID: 888899034}
   m_Layer: 5
   m_Name: Personaje3
   m_TagString: Untagged
@@ -3956,7 +3977,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: e3a1236399fbd1742b4a1d0169d775c7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3974,6 +3995,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 888899028}
   m_CullTransparentMesh: 1
+--- !u!114 &888899034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888899028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d5f3b01b4761fb4aa7070ae41b39015, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 11400000, guid: 7706cf97bfa3fa44a867a8ab3babac35, type: 2}
+  text: Nen
+  position: 0
+  sprite: {fileID: 21300000, guid: e3a1236399fbd1742b4a1d0169d775c7, type: 3}
+  typeItem: 1
+  scoreReal: 1
+  scoreCreativity: 3
 --- !u!1 &893479131
 GameObject:
   m_ObjectHideFlags: 0
@@ -3987,6 +4027,7 @@ GameObject:
   - component: {fileID: 893479135}
   - component: {fileID: 893479134}
   - component: {fileID: 893479133}
+  - component: {fileID: 893479137}
   m_Layer: 5
   m_Name: Personaje2
   m_TagString: Untagged
@@ -4060,7 +4101,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 2d874c2523460e74dbf675bb114d483c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4078,6 +4119,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893479131}
   m_CullTransparentMesh: 1
+--- !u!114 &893479137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893479131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d5f3b01b4761fb4aa7070ae41b39015, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 11400000, guid: c304d3be3678a3543a8de052dcf0eb2d, type: 2}
+  text: Gos
+  position: 0
+  sprite: {fileID: 21300000, guid: 2d874c2523460e74dbf675bb114d483c, type: 3}
+  typeItem: 1
+  scoreReal: 2
+  scoreCreativity: 2
 --- !u!1 &902576550
 GameObject:
   m_ObjectHideFlags: 0
@@ -7049,6 +7109,7 @@ GameObject:
   - component: {fileID: 1458194592}
   - component: {fileID: 1458194594}
   - component: {fileID: 1458194593}
+  - component: {fileID: 1458194595}
   m_Layer: 5
   m_Name: Titulo
   m_TagString: Untagged
@@ -7095,7 +7156,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Detenen un ______ que simulava ser un     per ______ en ________ de Pol\xF2nia"
+  m_text: "Detenen un          que simulava ser un          per          en         
+    de Pol\xF2nia"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8d06ad650d1f4e44285d9954ffb0a7c7, type: 2}
   m_sharedMaterial: {fileID: -1458130942967234120, guid: 8d06ad650d1f4e44285d9954ffb0a7c7, type: 2}
@@ -7130,7 +7192,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 16
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -7172,6 +7234,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1458194591}
   m_CullTransparentMesh: 1
+--- !u!114 &1458194595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458194591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 025269e6539bad04ba09415548fa3f83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1467404269
 GameObject:
   m_ObjectHideFlags: 0
