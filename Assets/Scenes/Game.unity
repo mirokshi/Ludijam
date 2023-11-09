@@ -7110,6 +7110,7 @@ GameObject:
   - component: {fileID: 1458194594}
   - component: {fileID: 1458194593}
   - component: {fileID: 1458194595}
+  - component: {fileID: 1458194596}
   m_Layer: 5
   m_Name: Titulo
   m_TagString: Untagged
@@ -7156,8 +7157,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Detenen un          que simulava ser un          per          en         
-    de Pol\xF2nia"
+  m_text: TODO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8d06ad650d1f4e44285d9954ffb0a7c7, type: 2}
   m_sharedMaterial: {fileID: -1458130942967234120, guid: 8d06ad650d1f4e44285d9954ffb0a7c7, type: 2}
@@ -7184,7 +7184,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 21.8
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -7246,6 +7246,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 025269e6539bad04ba09415548fa3f83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1458194596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458194591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 930d61b51e8d8924baed9218034611fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: {fileID: 11400000, guid: 14a4ae1cc67a8694fb321c6f9019fed4, type: 2}
 --- !u!1 &1467404269
 GameObject:
   m_ObjectHideFlags: 0

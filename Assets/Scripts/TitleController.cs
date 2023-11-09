@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class TitleController : MonoBehaviour
 {
+    
     private TextMeshProUGUI title;
 
     private void Start()
@@ -25,7 +26,6 @@ public class TitleController : MonoBehaviour
 
     public void SetTitle(int position, string text)
     {
-        Debug.Log("TEXT: "+text);
         title.text = text;
     }
 }
