@@ -15,6 +15,6 @@ MonoBehaviour:
   text: Lladre
   position: 1
   sprite: {fileID: 21300000, guid: da474c87bf89d7e4f83ee268d6ed1287, type: 3}
-  typeItem: 0
+  typeItem: 1
   scoreReal: 3
   scoreCreativity: 1
