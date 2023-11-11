@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -16,9 +17,14 @@ public class Slot : MonoBehaviour,IDropHandler
         {
             SetItem item = dropped.GetComponent<SetItem>();
             OnItemDropped?.Invoke(item.position,item.text);
+            
+            
         }
+        
+        
 
     }
+
     
 }
 

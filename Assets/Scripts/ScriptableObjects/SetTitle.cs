@@ -7,7 +7,7 @@ using UnityEngine;
 public class SetTitle : MonoBehaviour
 {
     private TextMeshProUGUI _textMeshProUGUI;
-    public Title titleSO;
+    public Title titleScriptableObject;
     private string[] copyTitle;
     private int[] positions = new int[4];
     private void OnEnable()
@@ -24,11 +24,11 @@ public class SetTitle : MonoBehaviour
     {
         _textMeshProUGUI = GetComponent<TextMeshProUGUI>();
 
-        copyTitle = titleSO.parts;
+        copyTitle = new string[titleScriptableObject.parts.Length];
+        titleScriptableObject.parts.CopyTo(copyTitle,0);
         
         SetPositions();
         Constructor();
-
     }
 
     private void SetPositions()
@@ -62,7 +62,7 @@ public class SetTitle : MonoBehaviour
         }
         else
         {
-            constructor = titleSO.uncompletedTitle;
+            constructor = titleScriptableObject.uncompletedTitle;
         }
 
         _textMeshProUGUI.text = constructor;
