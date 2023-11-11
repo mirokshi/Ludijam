@@ -43,7 +43,7 @@ public class SetTitle : MonoBehaviour
     {
         string constructor = null;
 
-        if (copyTitle != null)
+        if (copyTitle != null && copyTitle.Length!=0)
         {
             for (int i = 0; i < copyTitle.Length; i++)
             {
