@@ -5,7 +5,7 @@ using UnityEngine;
 using  UnityEngine.EventSystems;
 
 
-public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEndDragHandler,IDragHandler
+public class DragDropN2 : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEndDragHandler,IDragHandler
 {
     public TypeItem typeItem;
     [SerializeField] private Canvas _canvas;

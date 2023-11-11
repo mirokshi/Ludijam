@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class SetItem : MonoBehaviour
+public class SetItemN2 : MonoBehaviour
 {
    public ItemImage itemImage;
    

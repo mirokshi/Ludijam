@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class SetTitle : MonoBehaviour
+public class SetTitleN1 : MonoBehaviour
 {
     private TextMeshProUGUI _textMeshProUGUI;
     public Title titleScriptableObject;
@@ -12,12 +12,12 @@ public class SetTitle : MonoBehaviour
     private int[] positions = new int[4];
     private void OnEnable()
     {
-        Slot.OnItemDropped += SetText;
+        SlotN1.OnItemDropped += SetText;
     }
 
     private void OnDisable()
     {
-        Slot.OnItemDropped -= SetText;
+        SlotN1.OnItemDropped -= SetText;
     }
 
     private void Start()

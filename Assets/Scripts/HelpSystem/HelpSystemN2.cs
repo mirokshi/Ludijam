@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HelpSystem : MonoBehaviour
+public class HelpSystemN2 : MonoBehaviour
 {
     public List<GameObject> objectsToDelete;
     public Button button;

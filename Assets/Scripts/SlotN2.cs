@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Slot : MonoBehaviour,IDropHandler
+public class SlotN2 : MonoBehaviour,IDropHandler
 {
     [SerializeField] private TypeItem typeItem;
     public static Action<int,string> OnItemDropped;
@@ -12,8 +12,8 @@ public class Slot : MonoBehaviour,IDropHandler
     {
         
         GameObject dropped = eventData.pointerDrag;
-        DragDrop draggableItem = dropped.GetComponent<DragDrop>();
-        SetItem item = dropped.GetComponent<SetItem>();
+        DragDropN2 draggableItem = dropped.GetComponent<DragDropN2>();
+        SetItemN2 item = dropped.GetComponent<SetItemN2>();
 
         if (typeItem== item.typeItem || typeItem == TypeItem.Compuesto)
         {
@@ -24,7 +24,7 @@ public class Slot : MonoBehaviour,IDropHandler
         {
             OnItemDropped?.Invoke(item.position,item.text);
 
-            SetItem[] items = GetComponentsInChildren<SetItem>();
+            SetItemN2[] items = GetComponentsInChildren<SetItemN2>();
             foreach (var i in items)
             {
                 if (i.typeItem == item.typeItem)
