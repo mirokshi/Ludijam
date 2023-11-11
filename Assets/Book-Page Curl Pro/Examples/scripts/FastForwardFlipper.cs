@@ -9,10 +9,10 @@ namespace BookCurlPro.Examples
     {
         public AutoFlip flipper;
         BookPro book;
-        public InputField pageNumInputField;
-        public void GotoPage()
+        public void GotoPage(int page)
         {
-            int pageNum = int.Parse(pageNumInputField.text);
+            print(page);
+            int pageNum = page;
             if (pageNum < 0) pageNum = 0;
             if (pageNum > flipper.ControledBook.papers.Length * 2) pageNum = flipper.ControledBook.papers.Length * 2 - 1;
             flipper.enabled = true;
