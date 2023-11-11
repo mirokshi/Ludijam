@@ -164,7 +164,7 @@ AudioSource:
   m_GameObject: {fileID: 84144186}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -2273146209696275378, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
+  OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 500dc960f98db5c47bbf4f1186a697ed, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -2158,7 +2158,7 @@ AudioSource:
   m_GameObject: {fileID: 376203055}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -2273146209696275378, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
+  OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 52372686547b78245b210c402bd28730, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -3051,7 +3051,7 @@ AudioSource:
   m_GameObject: {fileID: 597295403}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -2273146209696275378, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
+  OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a525de251477ca141a26f775b39842c3, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -4884,7 +4884,6 @@ GameObject:
   m_Component:
   - component: {fileID: 892045054}
   - component: {fileID: 892045056}
-  - component: {fileID: 892045055}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -4914,27 +4913,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 440, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &892045055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 892045053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 487bb7f14f728c74ca3bfc0020509b6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Track: 1
-  MinVolume: 0
-  MaxVolume: 1
-  Mode: 1
-  ChangeModeOnTrackFade: 1
-  ChangeModeOnMute: 1
-  ChangeModeOnUnmute: 1
-  ChangeModeOnTrackVolumeChange: 1
-  ModeSwitchBufferTime: 0.1
 --- !u!114 &892045056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4986,7 +4964,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 892045055}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MoreMountains.Tools.MMSoundManagerTrackVolumeSlider,
           MoreMountains.Tools
         m_MethodName: UpdateVolume
@@ -7161,7 +7139,7 @@ AudioSource:
   m_GameObject: {fileID: 1283795441}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -2273146209696275378, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
+  OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8f42af9c696111a4e8f86ece5df63cad, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -10422,7 +10400,7 @@ AudioSource:
   m_GameObject: {fileID: 1695330192}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -2273146209696275378, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
+  OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a56f73fac1393d14cb43a358ff2503eb, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -10969,7 +10947,7 @@ AudioSource:
   m_GameObject: {fileID: 1942159879}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -2273146209696275378, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
+  OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a8edb2ad2b4caab4baa7ef0e0913e32d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -11634,7 +11612,7 @@ AudioSource:
   m_GameObject: {fileID: 2132021547}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -2273146209696275378, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
+  OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d4fd9107f25c8244b9de1a1e1cb5e1e2, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
