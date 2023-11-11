@@ -13,11 +13,12 @@ public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEnd
     private CanvasGroup _canvasGroup;
     
     [HideInInspector] public Transform parentAfterDrag;
-
+    [HideInInspector] public Transform originParent;
     private void Awake()
     {
         _rectTransform = GetComponent<RectTransform>();
         _canvasGroup = GetComponent<CanvasGroup>();
+        originParent = transform.parent;
     }
 
     public void OnPointerDown(PointerEventData eventData)

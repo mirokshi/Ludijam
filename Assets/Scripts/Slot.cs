@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -17,8 +18,15 @@ public class Slot : MonoBehaviour,IDropHandler
         {
             SetItem item = dropped.GetComponent<SetItem>();
             OnItemDropped?.Invoke(item.position,item.text);
-            
-            
+
+            SetItem[] items = GetComponentsInChildren<SetItem>();
+            foreach (var i in items)
+            {
+                if (i.typeItem == item.typeItem)
+                {
+                    i.transform.SetParent(draggableItem.originParent);
+                }
+            }
         }
         
         
