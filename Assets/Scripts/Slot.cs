@@ -10,13 +10,18 @@ public class Slot : MonoBehaviour,IDropHandler
     public static Action<int,string> OnItemDropped;
     public void OnDrop(PointerEventData eventData)
     {
+        
         GameObject dropped = eventData.pointerDrag;
         DragDrop draggableItem = dropped.GetComponent<DragDrop>();
-        draggableItem.parentAfterDrag = transform;
+        SetItem item = dropped.GetComponent<SetItem>();
+
+        if (typeItem== item.typeItem || typeItem == TypeItem.Compuesto)
+        {
+            draggableItem.parentAfterDrag = transform;    
+        }
         
         if (typeItem==TypeItem.Compuesto)
         {
-            SetItem item = dropped.GetComponent<SetItem>();
             OnItemDropped?.Invoke(item.position,item.text);
 
             SetItem[] items = GetComponentsInChildren<SetItem>();
@@ -28,6 +33,7 @@ public class Slot : MonoBehaviour,IDropHandler
                 }
             }
         }
+        
         
         
 
