@@ -8,41 +8,53 @@ public class SetTitle : MonoBehaviour
 {
     private TextMeshProUGUI _textMeshProUGUI;
     public Title titleSO;
-
+    private string[] copyTitle;
+    private int[] positions = new int[4];
     private void OnEnable()
     {
-        Slot.OnItemDropped += setText;
+        Slot.OnItemDropped += SetText;
     }
 
     private void OnDisable()
     {
-        Slot.OnItemDropped -= setText;
+        Slot.OnItemDropped -= SetText;
     }
 
     private void Start()
     {
         _textMeshProUGUI = GetComponent<TextMeshProUGUI>();
 
+        copyTitle = titleSO.parts;
+        
+        SetPositions();
         Constructor();
 
+    }
+
+    private void SetPositions()
+    {
+        positions[0]=SearchText(1);
+        positions[1]=SearchText(2);
+        positions[2]=SearchText(3);
+        positions[3]=SearchText(4);
     }
 
     private void Constructor()
     {
         string constructor = null;
 
-        if (titleSO.parts != null)
+        if (copyTitle != null)
         {
-            for (int i = 0; i < titleSO.parts.Length; i++)
+            for (int i = 0; i < copyTitle.Length; i++)
             {
                 if (i != 0)
                 {
                     constructor += " ";
                 }
 
-                constructor += titleSO.parts[i];
+                constructor += copyTitle[i];
 
-                if (i != titleSO.parts.Length - 1)
+                if (i != copyTitle.Length - 1)
                 {
                     constructor += " ";
                 }
@@ -56,21 +68,18 @@ public class SetTitle : MonoBehaviour
         _textMeshProUGUI.text = constructor;
     }
 
-    public void setText(int position, string text)
+    public void SetText(int position, string text)
     {
-        int index = ReplaceText(position);  
-
-        titleSO.parts[index] = text;
-        
+        copyTitle[positions[position - 1]] = text;
         Constructor();
     }
 
-    private int ReplaceText(int n)
+    private int SearchText(int n)
     {
         int count=0;
-        for (int i = 0; i < titleSO.parts.Length; i++)
+        for (int i = 0; i < copyTitle.Length; i++)
         {
-            if (titleSO.parts[i]=="__")
+            if (copyTitle[i]=="__")
             {
                 count++;
                 if (count==n)
@@ -79,7 +88,6 @@ public class SetTitle : MonoBehaviour
                 }
             }
         }
-
         return -1;
     }
 }
