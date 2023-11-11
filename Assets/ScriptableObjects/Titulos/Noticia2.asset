@@ -15,4 +15,12 @@ MonoBehaviour:
   completedTitle: Indemnitzats amb 1.300 euros per volar al costat d'un gos que es
     tirava pets
   uncompletedTitle: 'Indemnitzats amb 1.300 __ per __ al costat d''un __ que __ '
-  parts: []
+  parts:
+  - Indemnitzats amb 1.300
+  - __
+  - per
+  - __
+  - al costat d'un
+  - __
+  - que
+  - __

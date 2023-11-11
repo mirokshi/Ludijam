@@ -24,11 +24,15 @@ public class SetTitleN1 : MonoBehaviour
     {
         _textMeshProUGUI = GetComponent<TextMeshProUGUI>();
 
-        copyTitle = new string[titleScriptableObject.parts.Length];
-        titleScriptableObject.parts.CopyTo(copyTitle,0);
+        if (titleScriptableObject.parts.Length!=0)
+        {
+            copyTitle = new string[titleScriptableObject.parts.Length];
+            titleScriptableObject.parts.CopyTo(copyTitle,0);
         
-        SetPositions();
-        Constructor();
+            SetPositions();
+            Constructor();    
+        }
+        
     }
 
     private void SetPositions()
