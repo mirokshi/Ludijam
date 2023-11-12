@@ -1,18 +1,16 @@
 using System;
-using System.Collections.Generic;
-using Unity.VisualScripting;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 public class SlotN1 : MonoBehaviour,IDropHandler
 {
     [SerializeField] private TypeItem typeItem;
     [SerializeField] private GameObject auxSlot;
     public static Action<int,string> OnItemDropped;
+    public static Action<SetItemN1> OnActiveImage;
     public void OnDrop(PointerEventData eventData)
     {
-        
         GameObject dropped = eventData.pointerDrag;
         DragDropN1 draggableItem = dropped.GetComponent<DragDropN1>();
         SetItemN1 item = dropped.GetComponent<SetItemN1>();
@@ -36,15 +34,19 @@ public class SlotN1 : MonoBehaviour,IDropHandler
                     i.transform.SetParent(draggableItem.originParent);
                 }
             }
-            
 
+            StartCoroutine(mierda(item));
+            
         }
-        
-        
+       
         
     }
-
     
+    private IEnumerator mierda(SetItemN1 item)
+    {
+        yield return new WaitForSeconds(.1f);
+        OnActiveImage?.Invoke(item);
+    }
 }
 
 
