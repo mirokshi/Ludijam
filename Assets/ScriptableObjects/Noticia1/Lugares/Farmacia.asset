@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3c287ff842acd840a65620911b6a269, type: 3}
   m_Name: Farmacia
   m_EditorClassIdentifier: 
-  text: Pintar
-  position: 3
-  typeItem: 3
-  scoreReal: 1
-  scoreCreativity: 3
+  text: Farmacies
+  position: 4
+  typeItem: 4
+  scoreReal: 2
+  scoreCreativity: 2
