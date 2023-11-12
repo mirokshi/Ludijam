@@ -7,23 +7,24 @@ using UnityEngine.UIElements;
 
 public class SetItemN1 : MonoBehaviour
 {
-   public ItemImage itemImage;
-   
-   public string text;
-   public int position;
-   public Sprite sprite;
-   public TypeItem typeItem;
-   public int scoreReal;
-   public int scoreCreativity;
+    public ItemImage itemScriptableObject;
 
-   private void Start()
-   {
-      text = itemImage.text;
-      position = itemImage.position;
-      sprite = itemImage.sprite;
-      typeItem = itemImage.typeItem;
-      scoreReal = itemImage.scoreReal;
-      scoreCreativity = itemImage.scoreCreativity;
+    [HideInInspector] public string text;
+    [HideInInspector] public int position;
+    [HideInInspector] public TypeItem typeItem;
+    [HideInInspector] public int scoreReal;
+    [HideInInspector] public int scoreCreativity;
 
-   }
+    private void Start()
+    {
+        
+        if (itemScriptableObject!=null)
+        {
+            text = itemScriptableObject.text;
+            position = itemScriptableObject.position;
+            typeItem = itemScriptableObject.typeItem;
+            scoreReal = itemScriptableObject.scoreReal;
+            scoreCreativity = itemScriptableObject.scoreCreativity;    
+        }
+    }
 }

@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3c287ff842acd840a65620911b6a269, type: 3}
-  m_Name: Gos
+  m_Name: Policia
   m_EditorClassIdentifier: 
-  text: Gos
-  position: 1
-  sprite: {fileID: 21300000, guid: 09a640ca0cfcd8d41a18d3df024cc5d9, type: 3}
-  typeItem: 1
+  text: Policia
+  position: 2
+  typeItem: 2
   scoreReal: 2
   scoreCreativity: 2

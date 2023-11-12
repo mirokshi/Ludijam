@@ -9,7 +9,6 @@ public class ItemImage : ScriptableObject
 {
     public string text;
     public int position;
-    public Sprite sprite;
     public TypeItem typeItem;
     public int scoreReal;
     public int scoreCreativity;
