@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ImageControllerN1 : MonoBehaviour
@@ -46,16 +47,142 @@ public class ImageControllerN1 : MonoBehaviour
             image.SetActive(false);
         }
 
-        if (personaje.itemScriptableObject.text.ToUpper()=="LLADRE")
+        if (personaje != null)
         {
-            images[0].SetActive(true);
-        }else if (personaje.itemScriptableObject.text.ToUpper()=="GOS")
+            if (personaje.itemScriptableObject.text.ToUpper() == "LLADRE")
+            {
+                if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "ALIEN")
+                {
+                    images[3].SetActive(true);
+                }
+                else if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "MANIQUI")
+                {
+                    images[1].SetActive(true);
+                }
+                else if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "POLICIA")
+                {
+                    images[2].SetActive(true);
+                }
+                else
+                {
+                    images[0].SetActive(true);
+                }
+            }
+            else if (personaje.itemScriptableObject.text.ToUpper() == "GOS")
+            {
+                if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "ALIEN")
+                {
+                    images[5].SetActive(true);
+                }
+                else if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "MANIQUI")
+                {
+                    images[6].SetActive(true);
+                }
+                else if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "POLICIA")
+                {
+                    images[7].SetActive(true);
+                }
+                else
+                {
+                    images[4].SetActive(true);
+                }
+            }
+            else if (personaje.itemScriptableObject.text.ToUpper() == "NEN")
+            {
+                if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "ALIEN")
+                {
+                    images[9].SetActive(true);
+                }
+                else if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "MANIQUI")
+                {
+                    images[10].SetActive(true);
+                }
+                else if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "POLICIA")
+                {
+                    images[11].SetActive(true);
+                }
+                else
+                {
+                    images[8].SetActive(true);
+                }
+            }
+        }
+
+        else if (objeto != null)
         {
-            images[4].SetActive(true);
-        }else if (personaje.itemScriptableObject.text.ToUpper() == "NEN")
+            if (objeto.itemScriptableObject.text.ToUpper() == "ALIEN")
+            {
+                images[21].SetActive(true);
+            }
+            else if (objeto.itemScriptableObject.text.ToUpper() == "MANIQUI")
+            {
+                images[22].SetActive(true);
+            }
+            else if (objeto.itemScriptableObject.text.ToUpper() == "POLICIA")
+            {
+                images[23].SetActive(true);
+            }
+        }
+
+
+        
+        if (lugar != null)
         {
-            images[8].SetActive(true);  
+            print(lugar.itemScriptableObject.text.ToUpper());
+            if (lugar.itemScriptableObject.text.ToUpper() == "BOTIGUES")
+            {
+                if (accion != null && accion.itemScriptableObject.text.ToUpper() == "ROBAR")
+                {
+                    images[13].SetActive(true);
+                }else if (accion != null &&  accion.itemScriptableObject.text.ToUpper() == "PINTAR")
+                {
+                    images[14].SetActive(true);
+                }
+                else
+                {
+                    images[12].SetActive(true);
+                }
+                
+            }else if (lugar.itemScriptableObject.text.ToUpper() == "FARMACIES")
+            {
+                if (accion != null &&  accion.itemScriptableObject.text.ToUpper() == "ROBAR")
+                {
+                    images[16].SetActive(true);
+                }else if (accion != null &&  accion.itemScriptableObject.text.ToUpper() == "PINTAR")
+                {
+                    images[17].SetActive(true);
+                }
+                else
+                {
+                    images[15].SetActive(true);
+                }
+            }else if (lugar.itemScriptableObject.text.ToUpper() == "PISOS")
+            {
+                if (accion != null && accion.itemScriptableObject.text.ToUpper() == "ROBAR")
+                {
+                    images[19].SetActive(true);
+                }else if (accion != null && accion.itemScriptableObject.text.ToUpper() == "PINTAR")
+                {
+                    images[20].SetActive(true);
+                }
+                else
+                {
+                    images[18].SetActive(true);
+                } 
+            }
+
+        }else if (accion != null)
+        {
+            if (accion.itemScriptableObject.text.ToUpper() == "ROBAR")
+            {
+                //FALTA SPRITE TODO
+                // images[21].SetActive(true);
+            } 
+            if (accion.itemScriptableObject.text.ToUpper() == "PINTAR")
+            {
+                //FALTA SPRITE TODO
+                // images[21].SetActive(true);
+            } 
         }
     }
-
 }
