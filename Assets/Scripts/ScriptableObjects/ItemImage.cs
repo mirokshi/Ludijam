@@ -1,12 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
-using UnityEngine.UIElements;
 
 [CreateAssetMenu(fileName = "New Image", menuName = "Image")]
 public class ItemImage : ScriptableObject
 {
+    public Sprite sprite;
     public string text;
     public int position;
     public TypeItem typeItem;

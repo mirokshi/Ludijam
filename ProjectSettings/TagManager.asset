@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ObjetoN1
+  - PersonajeN1
+  - LugarN1
+  - AccionN1
   layers:
   - Default
   - TransparentFX

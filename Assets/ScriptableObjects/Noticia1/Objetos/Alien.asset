@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3c287ff842acd840a65620911b6a269, type: 3}
   m_Name: Alien
   m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 0db9cf7b1da9eb54b8de856cf30cdec8, type: 3}
   text: Alien
   position: 2
   typeItem: 2
