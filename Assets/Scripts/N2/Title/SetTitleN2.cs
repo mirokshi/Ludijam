@@ -10,7 +10,6 @@ public class SetTitleN2 : MonoBehaviour
     public Title titleScriptableObject;
     private string[] copyTitle;
     private int[] positions = new int[4];
-
     private void OnEnable()
     {
         SlotN2.OnItemDropped += SetText;
@@ -25,29 +24,30 @@ public class SetTitleN2 : MonoBehaviour
     {
         _textMeshProUGUI = GetComponent<TextMeshProUGUI>();
 
-        if (titleScriptableObject.parts.Length != 0)
+        if (titleScriptableObject.parts.Length!=0)
         {
             copyTitle = new string[titleScriptableObject.parts.Length];
-            titleScriptableObject.parts.CopyTo(copyTitle, 0);
-
+            titleScriptableObject.parts.CopyTo(copyTitle,0);
+        
             SetPositions();
-            Constructor();
+            Constructor();    
         }
+        
     }
 
     private void SetPositions()
     {
-        positions[0] = SearchText(1);
-        positions[1] = SearchText(2);
-        positions[2] = SearchText(3);
-        positions[3] = SearchText(4);
+        positions[0]=SearchText(1);
+        positions[1]=SearchText(2);
+        positions[2]=SearchText(3);
+        positions[3]=SearchText(4);
     }
 
     private void Constructor()
     {
         string constructor = null;
 
-        if (copyTitle != null && copyTitle.Length != 0)
+        if (copyTitle != null && copyTitle.Length!=0)
         {
             for (int i = 0; i < copyTitle.Length; i++)
             {
@@ -80,19 +80,18 @@ public class SetTitleN2 : MonoBehaviour
 
     private int SearchText(int n)
     {
-        int count = 0;
+        int count=0;
         for (int i = 0; i < copyTitle.Length; i++)
         {
-            if (copyTitle[i] == "__")
+            if (copyTitle[i]=="__")
             {
                 count++;
-                if (count == n)
+                if (count==n)
                 {
                     return i;
                 }
             }
         }
-
         return -1;
     }
 }
