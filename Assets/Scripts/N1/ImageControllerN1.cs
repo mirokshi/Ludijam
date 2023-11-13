@@ -8,7 +8,7 @@ public class ImageControllerN1 : MonoBehaviour
 {
     public List<GameObject> images;
     [SerializeField] private GameObject auxSlot;
-
+    public static Action<int> OnAchievement;
     private void OnEnable()
     {
         SlotN1.OnActiveImage += ActiveImage;
@@ -125,16 +125,15 @@ public class ImageControllerN1 : MonoBehaviour
         }
 
 
-        
         if (lugar != null)
         {
-            print(lugar.itemScriptableObject.text.ToUpper());
             if (lugar.itemScriptableObject.text.ToUpper() == "BOTIGUES")
             {
                 if (accion != null && accion.itemScriptableObject.text.ToUpper() == "ROBAR")
                 {
                     images[13].SetActive(true);
-                }else if (accion != null &&  accion.itemScriptableObject.text.ToUpper() == "PINTAR")
+                }
+                else if (accion != null && accion.itemScriptableObject.text.ToUpper() == "PINTAR")
                 {
                     images[14].SetActive(true);
                 }
@@ -142,13 +141,14 @@ public class ImageControllerN1 : MonoBehaviour
                 {
                     images[12].SetActive(true);
                 }
-                
-            }else if (lugar.itemScriptableObject.text.ToUpper() == "FARMACIES")
+            }
+            else if (lugar.itemScriptableObject.text.ToUpper() == "FARMACIES")
             {
-                if (accion != null &&  accion.itemScriptableObject.text.ToUpper() == "ROBAR")
+                if (accion != null && accion.itemScriptableObject.text.ToUpper() == "ROBAR")
                 {
                     images[16].SetActive(true);
-                }else if (accion != null &&  accion.itemScriptableObject.text.ToUpper() == "PINTAR")
+                }
+                else if (accion != null && accion.itemScriptableObject.text.ToUpper() == "PINTAR")
                 {
                     images[17].SetActive(true);
                 }
@@ -156,33 +156,51 @@ public class ImageControllerN1 : MonoBehaviour
                 {
                     images[15].SetActive(true);
                 }
-            }else if (lugar.itemScriptableObject.text.ToUpper() == "PISOS")
+            }
+            else if (lugar.itemScriptableObject.text.ToUpper() == "PISOS")
             {
                 if (accion != null && accion.itemScriptableObject.text.ToUpper() == "ROBAR")
                 {
                     images[19].SetActive(true);
-                }else if (accion != null && accion.itemScriptableObject.text.ToUpper() == "PINTAR")
+                }
+                else if (accion != null && accion.itemScriptableObject.text.ToUpper() == "PINTAR")
                 {
                     images[20].SetActive(true);
                 }
                 else
                 {
                     images[18].SetActive(true);
-                } 
+                }
             }
-
-        }else if (accion != null)
+        }
+        else if (accion != null)
         {
             if (accion.itemScriptableObject.text.ToUpper() == "ROBAR")
             {
                 //FALTA SPRITE TODO
                 // images[21].SetActive(true);
-            } 
+            }
+
             if (accion.itemScriptableObject.text.ToUpper() == "PINTAR")
             {
                 //FALTA SPRITE TODO
                 // images[21].SetActive(true);
-            } 
+            }
         }
+
+        if (personaje != null && objeto!=null && accion!=null && lugar!=null)
+        {
+            if (personaje.itemScriptableObject.text.ToUpper() == "LLADRE" 
+                && objeto.itemScriptableObject.text.ToUpper() == "MANIQUI"
+                && accion.itemScriptableObject.text.ToUpper() == "ROBAR" 
+                && lugar.itemScriptableObject.text.ToUpper() == "BOTIGUES") {
+                OnAchievement?.Invoke(0);
+            }
+            else
+            {
+                OnAchievement?.Invoke(1);
+            }   
+        }
+        
     }
 }
