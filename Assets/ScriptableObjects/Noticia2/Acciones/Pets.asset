@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pets
   m_EditorClassIdentifier: 
   text: Es tirava pets
-  position: 3
+  position: 4
   typeItem: 3
   scoreReal: 1
   scoreCreativity: 3

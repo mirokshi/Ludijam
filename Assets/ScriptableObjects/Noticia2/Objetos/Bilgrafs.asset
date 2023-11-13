@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bilgrafs
   m_EditorClassIdentifier: 
   text: Boligrafs
-  position: 2
+  position: 1
   typeItem: 2
   scoreReal: 2
   scoreCreativity: 2

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: VolarPrimera
   m_EditorClassIdentifier: 
   text: Volar en 1era
-  position: 4
+  position: 2
   typeItem: 4
   scoreReal: 3
   scoreCreativity: 1

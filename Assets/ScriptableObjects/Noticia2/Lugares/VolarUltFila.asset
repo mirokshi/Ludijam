@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: VolarUltFila
   m_EditorClassIdentifier: 
   text: "Volar en \xFAltima fila"
-  position: 4
+  position: 2
   typeItem: 4
   scoreReal: 2
   scoreCreativity: 2

@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: GosBuldog
   m_EditorClassIdentifier: 
   text: Gos
-  position: 1
-  sprite: {fileID: 21300000, guid: 09a640ca0cfcd8d41a18d3df024cc5d9, type: 3}
+  position: 3
   typeItem: 1
   scoreReal: 2
   scoreCreativity: 2

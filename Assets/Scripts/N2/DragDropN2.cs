@@ -27,7 +27,6 @@ public class DragDropN2 : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IE
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        _canvasGroup.alpha =.6f;
         _canvasGroup.blocksRaycasts = false;
         parentAfterDrag = transform.parent;
         transform.SetParent(transform.root);
@@ -36,7 +35,6 @@ public class DragDropN2 : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IE
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        _canvasGroup.alpha =1f;
         _canvasGroup.blocksRaycasts = true;
         transform.SetParent(parentAfterDrag);
     }

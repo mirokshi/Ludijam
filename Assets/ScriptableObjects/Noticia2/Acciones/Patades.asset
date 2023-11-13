@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Patades
   m_EditorClassIdentifier: 
   text: Donava patades
-  position: 3
+  position: 4
   typeItem: 3
   scoreReal: 3
   scoreCreativity: 1

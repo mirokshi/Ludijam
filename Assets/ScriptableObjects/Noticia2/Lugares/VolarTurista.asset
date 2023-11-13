@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: VolarTurista
   m_EditorClassIdentifier: 
   text: Volar en turista
-  position: 4
+  position: 2
   typeItem: 4
   scoreReal: 1
   scoreCreativity: 3

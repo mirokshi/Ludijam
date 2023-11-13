@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Avi
   m_EditorClassIdentifier: 
   text: Avi
-  position: 1
+  position: 3
   typeItem: 1
   scoreReal: 3
   scoreCreativity: 1

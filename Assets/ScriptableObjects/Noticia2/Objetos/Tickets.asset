@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tickets
   m_EditorClassIdentifier: 
   text: Tickets
-  position: 2
+  position: 1
   typeItem: 2
   scoreReal: 3
   scoreCreativity: 1
