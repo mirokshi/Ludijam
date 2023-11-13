@@ -9,7 +9,7 @@ public class SetTitleTuto : MonoBehaviour
     private TextMeshProUGUI _textMeshProUGUI;
     public Title titleScriptableObject;
     private string[] copyTitle;
-    private int[] positions = new int[4];
+    private int[] positions = new int[2];
     private void OnEnable()
     {
         SlotTuto.OnItemDropped += SetText;
@@ -39,8 +39,6 @@ public class SetTitleTuto : MonoBehaviour
     {
         positions[0]=SearchText(1);
         positions[1]=SearchText(2);
-        positions[2]=SearchText(3);
-        positions[3]=SearchText(4);
     }
 
     private void Constructor()

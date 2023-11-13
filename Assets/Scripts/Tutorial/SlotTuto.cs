@@ -12,7 +12,7 @@ public class SlotTuto : MonoBehaviour,IDropHandler
     public void OnDrop(PointerEventData eventData)
     {
         GameObject dropped = eventData.pointerDrag;
-        DragDropN1 draggableItem = dropped.GetComponent<DragDropN1>();
+        DragDropTuto draggableItem = dropped.GetComponent<DragDropTuto>();
         SetItemTuto item = dropped.GetComponent<SetItemTuto>();
         
         //Mirar en el auxiliar 
