@@ -49,151 +49,120 @@ public class ImageControllerN2 : MonoBehaviour
 
         if (personaje != null)
         {
-            if (personaje.itemScriptableObject.text.ToUpper() == "LLADRE")
+            if (personaje.itemScriptableObject.text.ToUpper() == "AVI")
             {
-                if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "ALIEN")
+                if (accion != null && accion.itemScriptableObject.text.ToUpper() == "CRIDAVA MOLT")
                 {
-                    images[3].SetActive(true);
+                    images[14].SetActive(true);
                 }
-                else if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "MANIQUI")
+                else if (accion != null && accion.itemScriptableObject.text.ToUpper() == "DONAVA PATADES")
                 {
-                    images[1].SetActive(true);
+                    images[12].SetActive(true);
                 }
-                else if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "POLICIA")
+                else if (accion != null && accion.itemScriptableObject.text.ToUpper() == "ES TIRAVA PETS")
                 {
-                    images[2].SetActive(true);
+                    images[13].SetActive(true);
                 }
                 else
                 {
-                    images[0].SetActive(true);
+                    images[11].SetActive(true);
                 }
             }
             else if (personaje.itemScriptableObject.text.ToUpper() == "GOS")
             {
-                if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "ALIEN")
-                {
-                    images[5].SetActive(true);
-                }
-                else if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "MANIQUI")
+                if (accion != null && accion.itemScriptableObject.text.ToUpper() == "CRIDAVA MOLT")
                 {
                     images[6].SetActive(true);
                 }
-                else if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "POLICIA")
+                else if (accion != null && accion.itemScriptableObject.text.ToUpper() == "DONAVA PATADES")
                 {
-                    images[7].SetActive(true);
+                    images[5].SetActive(true);
+                }
+                else if (accion != null && accion.itemScriptableObject.text.ToUpper() == "ES TIRAVA PETS")
+                {
+                    images[4].SetActive(true);
                 }
                 else
                 {
-                    images[4].SetActive(true);
+                    images[3].SetActive(true);
                 }
             }
             else if (personaje.itemScriptableObject.text.ToUpper() == "NEN")
             {
-                if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "ALIEN")
-                {
-                    images[9].SetActive(true);
-                }
-                else if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "MANIQUI")
-                {
-                    images[10].SetActive(true);
-                }
-                else if (objeto != null && objeto.itemScriptableObject.text.ToUpper() == "POLICIA")
-                {
-                    images[11].SetActive(true);
-                }
-                else
+                if (accion != null && accion.itemScriptableObject.text.ToUpper() == "CRIDAVA MOLT")
                 {
                     images[8].SetActive(true);
                 }
+                else if (accion != null && accion.itemScriptableObject.text.ToUpper() == "DONAVA PATADES")
+                {
+                    images[9].SetActive(true);
+                }
+                else if (accion != null && accion.itemScriptableObject.text.ToUpper() == "ES TIRAVA PETS")
+                {
+                    images[10].SetActive(true);
+                }
+                else
+                {
+                    images[7].SetActive(true);
+                }
             }
         }
 
-        else if (objeto != null)
+        else if (accion != null)
         {
-            if (objeto.itemScriptableObject.text.ToUpper() == "ALIEN")
+            if (accion.itemScriptableObject.text.ToUpper() == "CRIDAVA MOLT")
             {
-                images[21].SetActive(true);
+                images[18].SetActive(true);
             }
-            else if (objeto.itemScriptableObject.text.ToUpper() == "MANIQUI")
+            else if (accion.itemScriptableObject.text.ToUpper() == "DONAVA PATADES")
             {
-                images[22].SetActive(true);
+                images[19].SetActive(true);
             }
-            else if (objeto.itemScriptableObject.text.ToUpper() == "POLICIA")
+            else if (accion.itemScriptableObject.text.ToUpper() == "ES TIRAVA PETS")
             {
-                images[23].SetActive(true);
+                images[20].SetActive(true);
             }
         }
-
 
         if (lugar != null)
         {
-            if (lugar.itemScriptableObject.text.ToUpper() == "BOTIGUES")
+            if (lugar.itemScriptableObject.text.ToUpper() == "VOLAR EN 1ERA")
             {
-                if (accion != null && accion.itemScriptableObject.text.ToUpper() == "ROBAR")
-                {
-                    images[13].SetActive(true);
-                }
-                else if (accion != null && accion.itemScriptableObject.text.ToUpper() == "PINTAR")
-                {
-                    images[14].SetActive(true);
-                }
-                else
-                {
-                    images[12].SetActive(true);
-                }
+                images[0].SetActive(true);
             }
-            else if (lugar.itemScriptableObject.text.ToUpper() == "FARMACIES")
+            else if (lugar.itemScriptableObject.text.ToUpper() == "VOLAR EN TURISTA")
             {
-                if (accion != null && accion.itemScriptableObject.text.ToUpper() == "ROBAR")
-                {
-                    images[16].SetActive(true);
-                }
-                else if (accion != null && accion.itemScriptableObject.text.ToUpper() == "PINTAR")
-                {
-                    images[17].SetActive(true);
-                }
-                else
-                {
-                    images[15].SetActive(true);
-                }
+                images[1].SetActive(true);
             }
-            else if (lugar.itemScriptableObject.text.ToUpper() == "PISOS")
+            else if (lugar.itemScriptableObject.text.ToUpper() == "VOLAR EN ÚLTIMA FILA")
             {
-                if (accion != null && accion.itemScriptableObject.text.ToUpper() == "ROBAR")
-                {
-                    images[19].SetActive(true);
-                }
-                else if (accion != null && accion.itemScriptableObject.text.ToUpper() == "PINTAR")
-                {
-                    images[20].SetActive(true);
-                }
-                else
-                {
-                    images[18].SetActive(true);
-                }
+                images[2].SetActive(true);
             }
         }
-        else if (accion != null)
+        
+        if (objeto != null)
         {
-            if (accion.itemScriptableObject.text.ToUpper() == "ROBAR")
+            if (objeto.itemScriptableObject.text.ToUpper() == "BOLIGRAFS")
             {
-                //FALTA SPRITE TODO
-                // images[21].SetActive(true);
+                images[15].SetActive(true);
             }
-
-            if (accion.itemScriptableObject.text.ToUpper() == "PINTAR")
+            else if (objeto.itemScriptableObject.text.ToUpper() == "EUROS")
             {
-                //FALTA SPRITE TODO
-                // images[21].SetActive(true);
+                images[16].SetActive(true);
+            }
+            else if (objeto.itemScriptableObject.text.ToUpper() == "TICKETS")
+            {
+                images[17].SetActive(true);
             }
         }
+        
 
         if (personaje != null && objeto!=null && accion!=null && lugar!=null)
         {
-            if (personaje.itemScriptableObject.text.ToUpper() == "LLADRE" 
-                && objeto.itemScriptableObject.text.ToUpper() == "MANIQUI"
-                && accion.itemScriptableObject.text.ToUpper() == "ROBAR" 
-                && lugar.itemScriptableObject.text.ToUpper() == "BOTIGUES") {
+            if (personaje.itemScriptableObject.text.ToUpper() == "GOS" 
+                && objeto.itemScriptableObject.text.ToUpper() == "EUROS"
+                && accion.itemScriptableObject.text.ToUpper() == "TIRAVA PETS" 
+                && lugar.itemScriptableObject.text.ToUpper() == "VOLAR EN 1ERA") {
                 OnAchievement?.Invoke(0);
             }
             else
