@@ -7,6 +7,7 @@ using UnityEngine;
 public class AchievementsControllerN1 : MonoBehaviour
 {
     private TextMeshProUGUI _text;
+    [SerializeField] private GameObject buttonLink;
     private void Start()
     {
         _text = GetComponent<TextMeshProUGUI>();
@@ -26,7 +27,8 @@ public class AchievementsControllerN1 : MonoBehaviour
     {
         if (tipo==0)
         {
-            _text.text = "NOTICIA REAL";    
+            _text.text = "NOTICIA REAL";
+            buttonLink.SetActive(true);
         }else if (tipo==1)
         {
             _text.text = "";
