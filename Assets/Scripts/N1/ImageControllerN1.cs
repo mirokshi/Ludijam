@@ -177,14 +177,12 @@ public class ImageControllerN1 : MonoBehaviour
         {
             if (accion.itemScriptableObject.text.ToUpper() == "ROBAR")
             {
-                //FALTA SPRITE TODO
-                // images[21].SetActive(true);
+                images[25].SetActive(true);
             }
 
             if (accion.itemScriptableObject.text.ToUpper() == "PINTAR")
             {
-                //FALTA SPRITE TODO
-                // images[21].SetActive(true);
+                images[24].SetActive(true);
             }
         }
 
