@@ -6,12 +6,9 @@ using UnityEngine;
 
 public class AchievementsControllerN1 : MonoBehaviour
 {
-    private TextMeshProUGUI _text;
     [SerializeField] private GameObject buttonLink;
-    private void Start()
-    {
-        _text = GetComponent<TextMeshProUGUI>();
-    }
+    [SerializeField] private GameObject[] logros;
+    [SerializeField] private GameObject garabatos;
 
     private void OnEnable()
     {
@@ -25,14 +22,24 @@ public class AchievementsControllerN1 : MonoBehaviour
 
     public void SetAchievement(int tipo)
     {
-        if (tipo==0)
+        if (tipo == 1)
         {
-            _text.text = "NOTICIA REAL";
+            logros[0].SetActive(true);
             buttonLink.SetActive(true);
-        }else if (tipo==1)
-        {
-            _text.text = "";
+            EliminarTachon();
         }
-        
+        else if (tipo == 2)
+        {
+            logros[1].SetActive(true);
+        }
+        else if (tipo == 3)
+        {
+            logros[2].SetActive(true);
+        }
+    }
+    
+    private void EliminarTachon()
+    {
+        garabatos.SetActive(false);
     }
 }

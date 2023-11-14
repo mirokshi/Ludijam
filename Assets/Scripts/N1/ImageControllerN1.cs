@@ -192,12 +192,23 @@ public class ImageControllerN1 : MonoBehaviour
                 && objeto.itemScriptableObject.text.ToUpper() == "MANIQUI"
                 && accion.itemScriptableObject.text.ToUpper() == "ROBAR" 
                 && lugar.itemScriptableObject.text.ToUpper() == "BOTIGUES") {
-                OnAchievement?.Invoke(0);
-            }
-            else
-            {
                 OnAchievement?.Invoke(1);
-            }   
+                
+            }
+            else if (personaje.itemScriptableObject.text.ToUpper() == "GOS" 
+                         && objeto.itemScriptableObject.text.ToUpper() == "POLICIA"
+                         && accion.itemScriptableObject.text.ToUpper() == "ROBAR" 
+                         && lugar.itemScriptableObject.text.ToUpper() == "FARMACIES")
+            {
+                OnAchievement?.Invoke(2);
+            }
+            else if (personaje.itemScriptableObject.text.ToUpper() == "NEN"
+                      && objeto.itemScriptableObject.text.ToUpper() == "ALIEN"
+                      && accion.itemScriptableObject.text.ToUpper() == "PINTAR"
+                      && lugar.itemScriptableObject.text.ToUpper() == "BOTIGUES")
+            {
+                OnAchievement?.Invoke(3);
+            }
         }
         
     }

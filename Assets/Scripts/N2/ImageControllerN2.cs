@@ -161,13 +161,24 @@ public class ImageControllerN2 : MonoBehaviour
         {
             if (personaje.itemScriptableObject.text.ToUpper() == "GOS" 
                 && objeto.itemScriptableObject.text.ToUpper() == "EUROS"
-                && accion.itemScriptableObject.text.ToUpper() == "TIRAVA PETS" 
-                && lugar.itemScriptableObject.text.ToUpper() == "VOLAR EN 1ERA") {
-                OnAchievement?.Invoke(0);
-            }
-            else
+                && accion.itemScriptableObject.text.ToUpper() == "ES TIRAVA PETS" 
+                && lugar.itemScriptableObject.text.ToUpper() == "VOLAR EN 1ERA") 
             {
                 OnAchievement?.Invoke(1);
+            }
+            else if (personaje.itemScriptableObject.text.ToUpper() == "AVI" 
+                                 && objeto.itemScriptableObject.text.ToUpper() == "BOLIGRAFS"
+                                 && accion.itemScriptableObject.text.ToUpper() == "DONAVA PATADES" 
+                                 && lugar.itemScriptableObject.text.ToUpper() == "VOLAR EN 1ERA") 
+            {
+                OnAchievement?.Invoke(2);
+            } 
+            else if (personaje.itemScriptableObject.text.ToUpper() == "NEN" 
+                     && objeto.itemScriptableObject.text.ToUpper() == "EUROS"
+                     && accion.itemScriptableObject.text.ToUpper() == "ES TIRAVA PETS" 
+                     && lugar.itemScriptableObject.text.ToUpper() == "VOLAR EN ÚLTIMA FILA") 
+            {
+                OnAchievement?.Invoke(3);
             }   
         }
         
