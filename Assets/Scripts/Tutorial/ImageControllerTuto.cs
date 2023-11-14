@@ -56,6 +56,13 @@ public class ImageControllerTuto : MonoBehaviour
         {
             images[0].SetActive(true);
         }
-        
+
+        if (personaje!=null && objeto!=null)
+        {
+            if (personaje.itemScriptableObject.text.ToUpper()=="HAS")
+            {
+                OnAchievement?.Invoke(1);
+            }
+        }
     }
 }
