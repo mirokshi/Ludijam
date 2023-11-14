@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 79e2338b6e8f8d442a0f42e6e546ca43
+guid: 9231d3b6a7cfb374192c9b40b097ee54
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: iconosLogros_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 233.5
+        width: 240.5
+        height: 233.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8dc9adc45cb8941ad2b124462898d1
+      internalID: -2146573140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconosLogros_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 233.5
+        width: 240.5
+        height: 233.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f8690abc855b94bb5c3821ae3128a6
+      internalID: 1000213686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconosLogros_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.5
+        width: 240.5
+        height: 233.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1382fc4c154aa34ba8fc7e14a25508a
+      internalID: -1680336127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconosLogros_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0.5
+        width: 240.5
+        height: 233.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846c35ef39b629543a940f1b3fcc2db9
+      internalID: 559876575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +216,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      iconosLogros_0: -2146573140
+      iconosLogros_1: 1000213686
+      iconosLogros_2: -1680336127
+      iconosLogros_3: 559876575
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
