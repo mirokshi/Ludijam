@@ -11,6 +11,8 @@ public class mouseController : MonoBehaviour
     public Texture2D handCloseMouse;
     private Vector2 handMouseHotSpot = new Vector2(0.5f, 0.5f);
 
+    private bool inUse = false;
+
     private void Awake()
     {
         Cursor.SetCursor(normalMouse,normalMouseHotSpot,CursorMode.Auto);
@@ -18,16 +20,30 @@ public class mouseController : MonoBehaviour
 
     public void setHandMouse()
     {
-        Cursor.SetCursor(handMouse,handMouseHotSpot,CursorMode.Auto);
+        if (inUse == false)
+        {
+            Cursor.SetCursor(handMouse,handMouseHotSpot,CursorMode.Auto);
+        }
     }
     
     public void setNormalMouse()
     {
-        Cursor.SetCursor(normalMouse,normalMouseHotSpot,CursorMode.Auto);
+        if (inUse == false)
+        {
+            Cursor.SetCursor(normalMouse,normalMouseHotSpot,CursorMode.Auto);
+        }
     }
     
     public void setHandCloseMouse()
     {
-        Cursor.SetCursor(handCloseMouse,handMouseHotSpot,CursorMode.Auto);
+        if (inUse == false)
+        {
+             Cursor.SetCursor(handCloseMouse,handMouseHotSpot,CursorMode.Auto);
+        }
+    }
+
+    public void setInUse(bool use)
+    {
+        inUse = use;
     }
 }
