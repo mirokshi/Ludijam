@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3c287ff842acd840a65620911b6a269, type: 3}
   m_Name: Completat
   m_EditorClassIdentifier: 
-  text: Completat
+  text: Has
   position: 1
   typeItem: 1
   scoreReal: 0

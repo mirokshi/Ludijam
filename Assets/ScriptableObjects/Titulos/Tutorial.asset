@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: Tutorial
   m_EditorClassIdentifier: 
   completedTitle: Has completat el tutorial
-  uncompletedTitle: Has __ completat el __
+  uncompletedTitle: __ completat el __
   parts:
-  - Has
   - __
-  - el
+  - completat el
   - __
