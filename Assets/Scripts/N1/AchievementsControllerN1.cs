@@ -36,6 +36,12 @@ public class AchievementsControllerN1 : MonoBehaviour
         {
             logros[2].SetActive(true);
         }
+        else
+        { 
+            logros[3].SetActive(true);
+            buttonLink.SetActive(true);
+            EliminarTachon();
+        }
     }
     
     private void EliminarTachon()

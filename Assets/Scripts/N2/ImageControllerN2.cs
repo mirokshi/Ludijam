@@ -9,6 +9,7 @@ public class ImageControllerN2 : MonoBehaviour
     public List<GameObject> images;
     [SerializeField] private GameObject auxSlot;
     public static Action<int> OnAchievement;
+    private bool boolPista = true;
     private void OnEnable()
     {
         SlotN2.OnActiveImage += ActiveImage;
@@ -164,7 +165,14 @@ public class ImageControllerN2 : MonoBehaviour
                 && accion.itemScriptableObject.text.ToUpper() == "ES TIRAVA PETS" 
                 && lugar.itemScriptableObject.text.ToUpper() == "VOLAR EN 1ERA") 
             {
-                OnAchievement?.Invoke(1);
+                if (boolPista)
+                {
+                    OnAchievement?.Invoke(1);    
+                }
+                else
+                {
+                    OnAchievement?.Invoke(4);
+                }
             }
             else if (personaje.itemScriptableObject.text.ToUpper() == "AVI" 
                                  && objeto.itemScriptableObject.text.ToUpper() == "BOLIGRAFS"
@@ -182,5 +190,10 @@ public class ImageControllerN2 : MonoBehaviour
             }   
         }
         
+    }
+    
+    public void pista()
+    {
+        boolPista = false;
     }
 }
